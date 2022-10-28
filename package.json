@@ -1,0 +1,26 @@
+{
+  "name": "scaffolder",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktormarinho/scaffolder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktormarinho/scaffolder/issues"
+  },
+  "homepage": "https://github.com/viktormarinho/scaffolder#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "shelljs": "^0.8.5"
+  }
+}
