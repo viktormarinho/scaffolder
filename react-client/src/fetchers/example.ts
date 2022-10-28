@@ -8,9 +8,9 @@ type Stack = {
 export const fetchStack: () => Promise<Stack> = async () => {
 
     const stack = [
-        { 
-            title: 'React Query', 
-            content: 'A powerful data-fetching react library made for easily syncing your client-server state.', 
+        {
+            title: 'React Query',
+            content: 'A powerful data-fetching react library made for easily syncing your client-server state.',
             link: 'https://tanstack.com/query/v4/docs/overview'
         },
         {
@@ -24,9 +24,9 @@ export const fetchStack: () => Promise<Stack> = async () => {
             link: 'https://docs.pmnd.rs/zustand/getting-started/introduction'
         },
         {
-            title: 'Vite',
-            content: 'Vite is a incredibly fast build tool that aims to provide a nice development experience for modern web projects.',
-            link: 'https://vitejs.dev/'
+            title: 'React Router',
+            content: 'This project comes with File-System Routing pre-configured, powered by React Router DOM.',
+            link: 'https://reactrouter.com/en/main/start/tutorial'
         },
     ];
 
