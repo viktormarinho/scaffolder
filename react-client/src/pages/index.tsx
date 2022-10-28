@@ -18,13 +18,12 @@ const App = () => {
       <div className="flex items-center gap-8 mt-8">
         {query.isLoading
           ? <LoadingCards />
-          : query.data
-            ?
-            <>
-              {query.data.map((tech, i) => <Card key={i} {...tech} />)}
-              <ResetQueryButton />
-            </>
-            : null}
+          : query.data &&
+          <>
+            {query.data.map((tech, i) => <Card key={i} {...tech} />)}
+            <ResetQueryButton />
+          </>
+        }
       </div>
     </div>
   )
