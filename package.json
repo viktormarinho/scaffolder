@@ -1,6 +1,6 @@
 {
   "name": "scaffolder-new",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "npx script for scaffolding project templates",
   "type": "module",
   "main": "index.mjs",
