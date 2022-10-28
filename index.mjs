@@ -1,5 +1,5 @@
-const inquirer = require('inquirer')
-const shell = require('shelljs')
+import inquirer from 'inquirer'
+import shell from 'shelljs'
 
 if (!shell.which('git')) {
     shell.echo('This script requires git.');

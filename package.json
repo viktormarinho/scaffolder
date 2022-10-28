@@ -1,11 +1,12 @@
 {
   "name": "scaffolder-new",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "npx script for scaffolding project templates",
   "type": "module",
-  "main": "index.js",
-  "bin": "index.js",
+  "main": "index.mjs",
+  "bin": "index.mjs",
   "scripts": {
+    "start": "node index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
